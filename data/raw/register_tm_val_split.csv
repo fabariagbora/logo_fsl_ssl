@@ -1,4 +1,4 @@
-id,mark_id,mark_name,content
+ï»¿id,mark_id,mark_name,content
 12,8120b21b,Yoobao,https://d28ah3i0pt2w2k.cloudfront.net/3b8d4ff7-7d8f-4836-a787-8ea145754aa6/aeb574e7-9d9a-48b0-b399-f86b30140098.jpeg
 13,8120b21b,Yoobao,https://d28ah3i0pt2w2k.cloudfront.net/8c43b7a4-23d6-4d08-a4d5-e65e89d99a51/0eb92bab-66e7-46df-8f25-0d003ac481a7.jpeg
 21,d5041ee5,CRAFTSOFEGYPT,https://d28ah3i0pt2w2k.cloudfront.net/2f6623b9-0a0f-4d03-962e-556965c99d8c/f372ba05-007d-4a45-8e29-bbcfa18980d0.jpeg
@@ -86,7 +86,7 @@ id,mark_id,mark_name,content
 892,acce4829,LDESIGN,https://d28ah3i0pt2w2k.cloudfront.net/a257d507-dcd1-4129-aab2-036b6ceb7e2d/c6a677f1-9613-4cea-8fd0-9fe3e6cb001f.jpeg
 904,874c4301,TENDLIN,https://d28ah3i0pt2w2k.cloudfront.net/e3d08c1f-1e4f-416f-9db7-66cbbf790159/09b5cd98-7efc-4b39-a2ee-f7ef680e0eb4.jpeg
 906,42081c0a,Audi,https://d28ah3i0pt2w2k.cloudfront.net/811dd3ed-2dae-4f5c-b748-8a7e7fae7710/f3e97587-b35e-42e5-bf60-e2adbf5ed045.jpeg
-908,447662e3,testo,https://d28ah3i0pt2w2k.cloudfront.net/6f8bff1e-7362-4e7c-842a-025d184cb7d0/78d08fcc-3ce6-4e9c-ac4a-9b944aeb3eec.jpeg
+908,4.48E+08,testo,https://d28ah3i0pt2w2k.cloudfront.net/6f8bff1e-7362-4e7c-842a-025d184cb7d0/78d08fcc-3ce6-4e9c-ac4a-9b944aeb3eec.jpeg
 915,e67f5d39,Planet,https://d28ah3i0pt2w2k.cloudfront.net/e14067e8-1737-42cd-83d1-7a224b1da757/3883a7b3-31f4-4abf-8243-5662fc80afd1.jpeg
 932,3884f427,GIGABYTE TECHNOLOGY,https://d28ah3i0pt2w2k.cloudfront.net/e625db01-f108-46f6-903f-35fca4b6283f/39584400-86fb-4d25-b606-eb6166ac8fdd.png
 941,91e9e7e3,BESTEEL,https://d28ah3i0pt2w2k.cloudfront.net/a540c099-4f7b-49fc-a1dd-61bff7b1580d/946756a0-e91b-43bd-bcb4-3051329d712f.jpeg
@@ -165,7 +165,7 @@ id,mark_id,mark_name,content
 1743,f0c6cba8,HARRY POTTER,https://d28ah3i0pt2w2k.cloudfront.net/8c7cd41e-d681-41d2-bd6a-dd699b779c0c/1655f376-3aa8-4fa6-afa9-13fa58c36f14.jpeg
 1749,ee0f5741,CHOETECH,https://d28ah3i0pt2w2k.cloudfront.net/f682ca44-51cc-4ce8-b93b-8b760b0716cf/024e6a0d-b821-4842-b2f5-f6506175e74e.png
 1766,5eb8e270,ROCAM,https://d28ah3i0pt2w2k.cloudfront.net/ab9e0dae-cf64-4b70-a405-add019f6e97d/d9d4e3e4-25a7-464c-bd5b-fdad4264df57.png
-1778,f3e2eef4,INNÔPLUS,https://d28ah3i0pt2w2k.cloudfront.net/666a8f23-8bc3-4d7f-990c-7987d86c096b/12871c5a-7907-42a9-8cb9-eaf8b62b7528.png
+1778,f3e2eef4,INNÃ”PLUS,https://d28ah3i0pt2w2k.cloudfront.net/666a8f23-8bc3-4d7f-990c-7987d86c096b/12871c5a-7907-42a9-8cb9-eaf8b62b7528.png
 1780,2fba4af2,KICHEIF,https://d28ah3i0pt2w2k.cloudfront.net/0fa6b0f9-dea3-4d24-a72a-35aa505926a0/72a1a96d-c777-4843-99b5-0c5a050573ee.png
 1792,0ee8d63c,DREAM PAIRS,https://d28ah3i0pt2w2k.cloudfront.net/b23e970d-458c-4199-8681-aee50a1be5cc/6b45340d-620f-4f2d-b97f-2d667e2ae01f.jpeg
 1793,0ee8d63c,DREAM PAIRS,https://d28ah3i0pt2w2k.cloudfront.net/a152de37-cad3-4365-a6a1-00d469e38b98/35c99be4-abdc-4c69-bac1-8c0afd866cde.jpeg
@@ -292,7 +292,7 @@ id,mark_id,mark_name,content
 3161,880cf45a,SOJOS,https://d28ah3i0pt2w2k.cloudfront.net/74a3a55b-00a2-49d1-97e7-444299be19c0/27c9d050-3a98-455e-9d9b-da5606ea1d47.jpeg
 3205,1e539d6a,SADES,https://d28ah3i0pt2w2k.cloudfront.net/b4da1e81-dd0b-4c9b-b945-78b7bf1fe170/be19947a-6dac-4ffc-8580-ba34bd45104e.jpeg
 3207,ebe36823,COLOR CLUB,https://d28ah3i0pt2w2k.cloudfront.net/e275f1d4-9871-4ffb-be81-906a30eac7cd/e5116ae7-286b-4ab8-a2ba-8ab97a728c30.png
-3224,32641e30,BAHLSEN,https://d28ah3i0pt2w2k.cloudfront.net/93fa45b0-dbf2-4b48-b5d2-4931580c3b8b/4def6a68-9394-4c7c-8e12-5866f9e0a0b0.gif
+3224,3.26E+34,BAHLSEN,https://d28ah3i0pt2w2k.cloudfront.net/93fa45b0-dbf2-4b48-b5d2-4931580c3b8b/4def6a68-9394-4c7c-8e12-5866f9e0a0b0.gif
 3230,db00445a,Lovicool,https://d28ah3i0pt2w2k.cloudfront.net/8cf9aa52-d97b-4cdb-b172-fe92ae3bea97/a300e8e7-d3e0-49fc-8739-b41cca2608d9.png
 3248,852fe71b,STONELINE,https://d28ah3i0pt2w2k.cloudfront.net/4407dff1-830b-4037-829f-1d9a47f1c22b/928b0758-977d-46b8-b828-2dcb35a0755d.png
 3263,bca0e6d1,GLOVION,https://d28ah3i0pt2w2k.cloudfront.net/8be1bcd2-0255-49ec-9a52-ae69d7ae059f/6a769287-36aa-45a4-ae9c-f44a2e240cb5.png
@@ -338,7 +338,7 @@ id,mark_id,mark_name,content
 3603,a9ec9da0,Arm & Hammer,https://d28ah3i0pt2w2k.cloudfront.net/1d2b49d9-244e-4e21-8aad-2b284ec497d1/219d7dd2-aae7-47bc-9e50-82f0919a5046.png
 3604,8d73cef1,OTIUM,https://d28ah3i0pt2w2k.cloudfront.net/60a33a0f-4615-4895-8a54-f71709795e9f/4c501b0a-22ac-40ab-bd20-efb3839fbcb9.jpeg
 3609,aa87a8e9,PRITECH,https://d28ah3i0pt2w2k.cloudfront.net/77249c8c-a113-4eb0-b19e-09eb3cb44645/31ffabec-adba-4881-8710-a2eb16f12c54.jpeg
-3613,971449e9,TIANLI,https://d28ah3i0pt2w2k.cloudfront.net/f4578942-7569-4991-8283-4248b854f128/5f244a73-c32f-4033-8a72-e8d010eeab26.jpeg
+3613,9.71E+14,TIANLI,https://d28ah3i0pt2w2k.cloudfront.net/f4578942-7569-4991-8283-4248b854f128/5f244a73-c32f-4033-8a72-e8d010eeab26.jpeg
 3620,62745a75,KRAZYWOLF,https://d28ah3i0pt2w2k.cloudfront.net/8b23c720-c1e6-4876-8096-746a60528fa7/bc3c9cb5-4f70-4903-8edd-f651bb0d5c47.jpeg
 3634,0946810a,Gaoye,https://d28ah3i0pt2w2k.cloudfront.net/2814e9dc-76f1-42e9-b258-25034576d749/1c7dd884-de43-4364-bbea-2830a25e7371.jpeg
 3654,66ffc03e,PAURO,https://d28ah3i0pt2w2k.cloudfront.net/c3bb8701-3dc2-4b0a-a927-8176b23c6c8d/08e43cb8-c8ef-4bce-8bdf-2d414daf4b78.jpeg
@@ -415,7 +415,7 @@ id,mark_id,mark_name,content
 4319,c134840d,Joseph Joseph,https://d28ah3i0pt2w2k.cloudfront.net/aa61c334-e1ca-49bf-a88a-82dcc4f22a2a/96a159c8-691a-4d64-a082-c1c9d1f80e54.jpeg
 4321,e961a32d,SHATCHI,https://d28ah3i0pt2w2k.cloudfront.net/3f4bda4d-0aba-4d10-a912-ec9e73975c9f/7834164a-59ee-4804-b3b6-7deeecb28336.jpeg
 4324,8d12c5e1,FUNANASUN,https://d28ah3i0pt2w2k.cloudfront.net/0cb22791-9d7a-46ca-9f63-311f760595b4/a75f27a3-6e16-4ebb-b25b-ea2f5f706722.jpeg
-4325,f0c6cba8,9 ¾,https://d28ah3i0pt2w2k.cloudfront.net/82e9a326-f028-4cff-a94b-18f14aac6a39/319852ad-a4bf-44ec-ae71-57d3a927ed30.jpeg
+4325,f0c6cba8,9 Â¾,https://d28ah3i0pt2w2k.cloudfront.net/82e9a326-f028-4cff-a94b-18f14aac6a39/319852ad-a4bf-44ec-ae71-57d3a927ed30.jpeg
 4337,aa9afe00,Garud,https://d28ah3i0pt2w2k.cloudfront.net/4a60a83b-c999-4a94-97d2-d30374cd8228/c9a24dfe-14e2-4247-8502-378f2b31a81d.jpeg
 4341,acce4829,LDesign,https://d28ah3i0pt2w2k.cloudfront.net/6d6d5330-b257-4411-8969-df3f7b3190f1/7479b25a-7509-41c4-bdc3-9a6a00b4417d.jpeg
 4346,5a04dc5d,Connectyle,https://d28ah3i0pt2w2k.cloudfront.net/ef0a9e57-a3af-48f6-b63c-ff42ea50a455/6a25ce82-bbe3-4579-8cfa-f35324b958fb.jpeg
@@ -472,7 +472,7 @@ id,mark_id,mark_name,content
 4891,224dc0af,BINGCUTE,https://d28ah3i0pt2w2k.cloudfront.net/d88d07f5-7b58-4264-83b4-191c288226c9/2765c768-ad5c-47e0-8d5d-f8ae29a9f0b9.png
 4929,0bdf52bb,Clasiko,https://d28ah3i0pt2w2k.cloudfront.net/5037542a-e3d9-4fa5-92ae-efdb912a8384/a357cd91-4e97-406b-a98e-0ef50526ed95.jpeg
 4945,ac206f87,DECORATIVE BUCKETS,https://d28ah3i0pt2w2k.cloudfront.net/c7849496-6f84-4725-a036-eab00e8e8fc2/4d4100bc-9d63-4957-8b38-e429e69f9ea4.jpeg
-4954,4e1d519c,ÖGON -DESIGNS-,https://d28ah3i0pt2w2k.cloudfront.net/27036b59-458b-442f-8b8f-6fc7584adbef/ea47b2d0-66ac-4be4-bc0c-243026b3cb56.png
+4954,4e1d519c,Ã–GON -DESIGNS-,https://d28ah3i0pt2w2k.cloudfront.net/27036b59-458b-442f-8b8f-6fc7584adbef/ea47b2d0-66ac-4be4-bc0c-243026b3cb56.png
 4996,6d6f42bf,Home-Neat,https://d28ah3i0pt2w2k.cloudfront.net/c56f2c25-6d1a-47bc-a936-0b100e072498/97d5a8d8-8907-48f8-95d1-b15e388d3c8c.jpeg
 5006,57df26ef,KENWOOD,https://d28ah3i0pt2w2k.cloudfront.net/c54e877e-980b-403c-b9c5-c47aaaa2584e/28551e17-1cda-4467-b547-a31a4f56d929.jpeg
 5007,57df26ef,KENWOOD,https://d28ah3i0pt2w2k.cloudfront.net/7f3e626e-c631-4e2b-ae76-55155776c575/29c39304-1a80-47e7-8743-e77ce72a2f64.jpeg
@@ -500,12 +500,12 @@ id,mark_id,mark_name,content
 5244,5717f926,JINBEI,https://d28ah3i0pt2w2k.cloudfront.net/11c8cdd9-d230-445a-a0be-7aabb7183611/803a1807-eebf-4258-af09-6aed2f407a85.png
 5245,e0c0ab87,TECCPO,https://d28ah3i0pt2w2k.cloudfront.net/041747d8-dff9-4eba-bdc6-e09709c0097e/ec6c90fc-dad6-4477-bb30-de148c9be6b7.jpeg
 5263,ab74d638,YESO,https://d28ah3i0pt2w2k.cloudfront.net/aa0dd501-0f94-4b12-88b4-98c23f81d549/e8cb1600-0d86-4953-89e8-a423e7df7d89.jpeg
-5279,32641e30,BAHLSEN,https://d28ah3i0pt2w2k.cloudfront.net/0d455e36-4993-448c-9761-2415d232a218/d2fbdba5-8ed7-41f8-a197-719b13c89779.gif
-5280,32641e30,BAHLSEN,https://d28ah3i0pt2w2k.cloudfront.net/32db3c21-658f-4657-b03b-a883154e2643/0233393d-ce77-4555-a0ca-540446f85092.png
+5279,3.26E+34,BAHLSEN,https://d28ah3i0pt2w2k.cloudfront.net/0d455e36-4993-448c-9761-2415d232a218/d2fbdba5-8ed7-41f8-a197-719b13c89779.gif
+5280,3.26E+34,BAHLSEN,https://d28ah3i0pt2w2k.cloudfront.net/32db3c21-658f-4657-b03b-a883154e2643/0233393d-ce77-4555-a0ca-540446f85092.png
 5282,d275b34a,MVCOLEDY,https://d28ah3i0pt2w2k.cloudfront.net/9eb8b00e-9972-403f-8586-f917c82e8ac5/64eaaff5-c3c0-4e84-a53c-ce31a3e95d8e.jpeg
 5292,bfda4d8c,PHYHOO,https://d28ah3i0pt2w2k.cloudfront.net/93ddf79e-b6e7-40b5-a996-04a443e0a7bc/b3acc7cd-745a-4615-bc2b-b58998fc8cda.jpeg
 5321,9f8c5989,TT,https://d28ah3i0pt2w2k.cloudfront.net/52dfe316-944f-44ca-b9a1-d107f95c8bb6/8cea5283-f932-445a-a40b-d53d59cd3b0a.png
-5328,32641e30,Bahlsen,https://d28ah3i0pt2w2k.cloudfront.net/5ceb5345-48d0-4a1b-8d7c-1ba1a3f7712d/7bab2047-1b73-466d-aafd-cca45db43d94.jpeg
+5328,3.26E+34,Bahlsen,https://d28ah3i0pt2w2k.cloudfront.net/5ceb5345-48d0-4a1b-8d7c-1ba1a3f7712d/7bab2047-1b73-466d-aafd-cca45db43d94.jpeg
 5345,fb5c34ed,EMK,https://d28ah3i0pt2w2k.cloudfront.net/633bd2a6-f630-4ea3-8fc2-70abb5da4dd6/88026024-4ef9-4bbd-86dd-af33a73d94da.png
 5346,1a995039,SUBRTEX,https://d28ah3i0pt2w2k.cloudfront.net/8a05185a-c7e5-49d2-a025-376d009f2e57/e75cc78b-f4eb-4ca6-ba55-3eceeae1b978.jpeg
 5352,98304aa3,Coquimbo,https://d28ah3i0pt2w2k.cloudfront.net/cd9d728e-99f7-4af1-8526-a51aef7eaeac/6acbaac1-e77f-403b-98b7-56892ef422b2.jpeg
@@ -645,7 +645,7 @@ id,mark_id,mark_name,content
 6819,ee8b7d4f,FRIGIDAIRE GALLERY,https://d28ah3i0pt2w2k.cloudfront.net/035808c1-dbd4-43d0-b15c-59b02a207100/b17e2e31-fb17-480a-9242-3ec6f0d4808c.png
 6830,3fce2a84,FMART,https://d28ah3i0pt2w2k.cloudfront.net/5a37c6e1-90ba-4379-9511-fbb9e0e76e4c/423d4281-99df-47be-a5f1-b8ddfe998ef8.png
 6834,c4e5bd3c,SUNON,https://d28ah3i0pt2w2k.cloudfront.net/2524e79a-62af-49da-82f8-37d2929b76de/e7a50889-219c-46a6-87d7-1c2bdc31ce0b.jpeg
-6846,d3560d8a,Vulpés,https://d28ah3i0pt2w2k.cloudfront.net/342c38c5-98ef-4d08-873b-f683b95dec3d/ac1cbb4e-125e-4e82-81bb-b602118e51d1.png
+6846,d3560d8a,VulpÃ©s,https://d28ah3i0pt2w2k.cloudfront.net/342c38c5-98ef-4d08-873b-f683b95dec3d/ac1cbb4e-125e-4e82-81bb-b602118e51d1.png
 6848,e9a96e9a,ELANROMAN,https://d28ah3i0pt2w2k.cloudfront.net/122a5bc8-5e0c-4af1-aed8-7bb77a13481a/6969d5f3-d6bb-4640-a8e5-735e3f088542.jpeg
 6850,594ec3f0,MOREDIG,https://d28ah3i0pt2w2k.cloudfront.net/fcb0cf25-68f8-4148-ba1f-709a4642b491/7fcf1711-d1d2-4e97-b434-3d5c9735cee9.jpeg
 6857,5eb8e270,ROCAM,https://d28ah3i0pt2w2k.cloudfront.net/fc55d392-e8c3-4445-8feb-d73a62023923/89a6ac8b-0828-4dd8-bc9b-8d06f9f73d83.jpeg
@@ -1199,7 +1199,7 @@ id,mark_id,mark_name,content
 11946,f79f1741,MARTIANS,https://d28ah3i0pt2w2k.cloudfront.net/28509f8b-ce22-4ee8-8590-5040cbe06f58/685df055-420b-4d5f-a5ad-292a493b5af2.png
 11948,116b2e94,ColorBird,https://d28ah3i0pt2w2k.cloudfront.net/4de376f7-33c7-449f-8c41-e7f8929df2e9/a0ee8bb2-01a1-4130-83c1-6ce4a6b2e757.jpeg
 11969,7c3c76d0,NO DOUBT,https://d28ah3i0pt2w2k.cloudfront.net/f5281e0b-3b5a-414c-8cd7-fefa9575034c/cb1aceac-3177-4f3d-8964-01bee2aa1725.jpeg
-11981,32641e30,Bahlsen,https://d28ah3i0pt2w2k.cloudfront.net/9d90c82c-ed2e-4235-9d1f-101355658053/f77eec45-243c-4730-ae44-c36d92e69c1c.jpeg
+11981,3.26E+34,Bahlsen,https://d28ah3i0pt2w2k.cloudfront.net/9d90c82c-ed2e-4235-9d1f-101355658053/f77eec45-243c-4730-ae44-c36d92e69c1c.jpeg
 12009,39775a3a,Doctor Who,https://d28ah3i0pt2w2k.cloudfront.net/18105414-6c7d-484e-a7d4-f2717952c321/e3160e3a-a278-4204-a2da-2fbcfc521847.jpeg
 12011,ee8b7d4f,FRIGIDAIRE P R O F E S S I O N A L,https://d28ah3i0pt2w2k.cloudfront.net/f61853e1-9c3b-4937-b062-ee016d721bba/bb2c89bb-794e-4075-88dd-040936688493.png
 12013,99d8475a,VIVERE,https://d28ah3i0pt2w2k.cloudfront.net/6bf5f2a5-6d73-4ae9-9387-862bd8e5af5d/807464e9-4834-48d3-b3b2-3ad9b6a62de5.jpeg
@@ -1222,7 +1222,7 @@ id,mark_id,mark_name,content
 12241,f7557402,ZFSOCK,https://d28ah3i0pt2w2k.cloudfront.net/f2f806f9-5c27-4823-826f-852d6df169c0/f3ed5be9-07a3-4f85-bb6c-38d91bc18c0d.jpeg
 12247,3dff2052,PRO BIKE TOOL,https://d28ah3i0pt2w2k.cloudfront.net/9550000d-1f5d-41ef-bf22-d97293c3b537/d53440c4-eb29-4e76-88d7-29b23425e75c.png
 12257,fd567c64,DOLPHERS,https://d28ah3i0pt2w2k.cloudfront.net/2206244e-33a7-4732-8332-aae0b99af835/a4f09cf2-eb97-443b-8349-0086ef8ee6c5.png
-12260,447662e3,testo,https://d28ah3i0pt2w2k.cloudfront.net/38ad2443-f34a-4fe0-8962-c99628bc59be/26886d65-24bf-484e-a1c4-ae29698436b0.jpeg
+12260,4.48E+08,testo,https://d28ah3i0pt2w2k.cloudfront.net/38ad2443-f34a-4fe0-8962-c99628bc59be/26886d65-24bf-484e-a1c4-ae29698436b0.jpeg
 12264,108a53ee,I IMAGE SKINCARE,https://d28ah3i0pt2w2k.cloudfront.net/9082a7f5-ee1a-45c9-93cb-7672190ddde9/d4154564-0c61-48de-973a-e37436395f3c.png
 12284,83a55611,Active Pixel,https://d28ah3i0pt2w2k.cloudfront.net/66dacc54-96db-4580-90aa-005637fa902d/9ae1a1d8-5dd2-4d0e-8022-755092378017.png
 12295,7d63c16d,ZITFRI,https://d28ah3i0pt2w2k.cloudfront.net/3ce3b685-7fa9-40ad-b29a-30058b37bf50/21cccb3d-274a-4855-817a-89fe3596f7e9.jpeg
@@ -1236,7 +1236,7 @@ id,mark_id,mark_name,content
 12355,0ffeefb0,MIKOSI,https://d28ah3i0pt2w2k.cloudfront.net/9b2deb2b-5b84-4167-9437-fe2fc8167042/0a105f07-1468-43b0-9bbb-ba729bdb8448.jpeg
 12366,e46f7ecf,NutriBullet,https://d28ah3i0pt2w2k.cloudfront.net/7ccdffe4-b454-403c-b65f-d058081f24c4/9eb36e2c-b0f4-43a0-8c57-de55ffbc20fa.jpeg
 12396,7e261a81,iGRiD,https://d28ah3i0pt2w2k.cloudfront.net/b25c8e9d-3179-4c8f-b2db-1feeda8d5673/04017698-54a7-4de6-9a98-81e272aea111.png
-12398,447662e3,TESTO,https://d28ah3i0pt2w2k.cloudfront.net/cb058d9f-7f34-4c84-98b7-abf97b84ef9d/62c13f71-083f-4569-b97a-7abe4d141ff5.png
+12398,4.48E+08,TESTO,https://d28ah3i0pt2w2k.cloudfront.net/cb058d9f-7f34-4c84-98b7-abf97b84ef9d/62c13f71-083f-4569-b97a-7abe4d141ff5.png
 12405,b7dcd97c,Yeamon,https://d28ah3i0pt2w2k.cloudfront.net/a1d92e6e-f4dd-405e-ace3-ceb709567f90/bc318989-0aba-4c57-a890-0b6c433d7aab.png
 12415,a5387409,SUPER MARIO BROS.,https://d28ah3i0pt2w2k.cloudfront.net/38d48f95-f27e-44e6-80e7-8a6e560770a7/51a11b10-4884-47db-b781-bbc5c19e4324.jpeg
 12426,32a58066,???????,https://d28ah3i0pt2w2k.cloudfront.net/061a9937-73f6-43eb-a0a8-7bc92374f66d/5db5d1df-8c77-4e5e-8940-118ac537f80d.jpeg
@@ -1288,7 +1288,7 @@ id,mark_id,mark_name,content
 12961,b4313dc4,MAXESLA,https://d28ah3i0pt2w2k.cloudfront.net/d88aa5eb-1cca-4a6f-835c-60bdeb9ef184/2b90f76c-5898-4b6d-aaf0-80e6fb95d98a.png
 12969,97271299,AccuPrints,https://d28ah3i0pt2w2k.cloudfront.net/8df41a45-6a1f-444b-9f2b-031a3dc6879e/fd0f17eb-ab43-444a-8f54-68be583967a7.jpeg
 12978,97686c01,KJUST,https://d28ah3i0pt2w2k.cloudfront.net/381d7d6e-60a3-4af7-b827-1b2ab36ff1d5/1170eaff-8cf8-457b-aefb-f52d83fcb266.png
-12987,8ee7122a,"VEUVE CLICQUOT PONSARDIN, Maison fondée en 1772 Disclaimer sur ""Maison fondée en 1772""",https://d28ah3i0pt2w2k.cloudfront.net/d5881046-cb08-430b-b847-29d5c63e0c79/0ab5d3e5-1df8-47c8-8817-2e64155bc225.jpeg
+12987,8ee7122a,"VEUVE CLICQUOT PONSARDIN, Maison fondÃ©e en 1772 Disclaimer sur ""Maison fondÃ©e en 1772""",https://d28ah3i0pt2w2k.cloudfront.net/d5881046-cb08-430b-b847-29d5c63e0c79/0ab5d3e5-1df8-47c8-8817-2e64155bc225.jpeg
 13004,882d0084,C Crystal Lemon,https://d28ah3i0pt2w2k.cloudfront.net/3c7c8ef2-1080-4492-8d0a-2c1ee1885102/805513f6-9a1f-4432-b579-fe29ae0a5273.jpeg
 13009,bdeaad97,ELEDUCTMON,https://d28ah3i0pt2w2k.cloudfront.net/29591ef8-6f50-4279-99e7-a206268548bf/6f1fb43e-c485-416f-aff0-e9279743c3f4.jpeg
 13019,f95fee8c,Puressentiel,https://d28ah3i0pt2w2k.cloudfront.net/736725d8-9e1c-49fd-8f45-bb80d862e96b/cbd4601e-1ffa-434d-b662-76382377aedb.png
@@ -1357,13 +1357,13 @@ id,mark_id,mark_name,content
 13690,235d3d61,Makoloce,https://d28ah3i0pt2w2k.cloudfront.net/e366eea0-ee08-449e-b181-06a3c169bdf0/d2140aa9-a901-4d27-8d3e-bd4f55cc6f85.jpeg
 13696,51cb43b2,KATE SPADE NEW YORK,https://d28ah3i0pt2w2k.cloudfront.net/1477e9b2-39b8-4fd4-99db-f51f600bb61d/beed71f9-8390-4dc3-8a81-d4884574eaa3.jpeg
 13700,238f87b4,GoMacro,https://d28ah3i0pt2w2k.cloudfront.net/eb4561a2-a438-4d51-8427-8a254eafe8fc/84e9de66-8eb5-4a57-9938-58809899981e.jpeg
-13716,8ee7122a,Veuve Clicquot CAVE PRIVÉE Veuve Clicquot Ponsardin,https://d28ah3i0pt2w2k.cloudfront.net/a72a4804-6928-4687-a1ab-826b6e7f2aeb/6d5b371d-f71f-4da9-9ffe-07a374493e3f.jpeg
+13716,8ee7122a,Veuve Clicquot CAVE PRIVÃ‰E Veuve Clicquot Ponsardin,https://d28ah3i0pt2w2k.cloudfront.net/a72a4804-6928-4687-a1ab-826b6e7f2aeb/6d5b371d-f71f-4da9-9ffe-07a374493e3f.jpeg
 13720,7bfff1d3,TRITTON,https://d28ah3i0pt2w2k.cloudfront.net/f452a6af-c5aa-4600-ac8e-68ceb9c83f4d/9a23baa7-ba76-42a9-b740-0bc94ccee38b.jpeg
 13764,584232ee,LAMIZIL,https://d28ah3i0pt2w2k.cloudfront.net/a1bfc318-6b08-43a2-bf64-9d51f02445bb/29582c31-0018-4dd9-bc09-00f893b23df4.jpeg
 13765,584232ee,LAMISIL,https://d28ah3i0pt2w2k.cloudfront.net/280e7072-0e5c-4097-bf1f-66a0bab4eb76/bd3c9358-84f1-4818-a1e8-ded7cb9a2e96.png
 13779,42081c0a,Audi,https://d28ah3i0pt2w2k.cloudfront.net/cab6fa06-8e14-4731-8bc7-7ebf7392d5b0/a4e14ba6-22b1-4794-8f90-321b88d0e2d1.jpeg
 13780,42081c0a,Audi,https://d28ah3i0pt2w2k.cloudfront.net/5be30650-8884-4c61-9af4-68f5f510414d/f2e7cfd9-c5f4-4553-9fc5-c108b25be6ed.jpeg
-13781,447662e3,TESTO,https://d28ah3i0pt2w2k.cloudfront.net/30f95ff8-77d7-4ff0-a8e8-a51b11c90dd6/e1be6953-cc7e-4082-ab29-e90180dc1d4a.jpeg
+13781,4.48E+08,TESTO,https://d28ah3i0pt2w2k.cloudfront.net/30f95ff8-77d7-4ff0-a8e8-a51b11c90dd6/e1be6953-cc7e-4082-ab29-e90180dc1d4a.jpeg
 13801,44afb7b7,VITOLER,https://d28ah3i0pt2w2k.cloudfront.net/4918a45d-4f93-4339-ba45-992c9de4a01f/cceadeaf-19ba-4664-85c1-6c3d078ac652.png
 13811,34cf5e06,VIRGIN,https://d28ah3i0pt2w2k.cloudfront.net/0a6df05d-a037-4790-a7b9-2d14348d39ff/5a77fde7-d454-4fd1-8394-645d259aa86e.png
 13818,5294b143,Glisteny,https://d28ah3i0pt2w2k.cloudfront.net/7c8a1102-3dd9-45fc-a0ee-065a5da8b658/87c146a4-86d7-4779-89ef-e533b0e63b19.png
@@ -1489,7 +1489,7 @@ id,mark_id,mark_name,content
 15029,0364dbc0,VENUM,https://d28ah3i0pt2w2k.cloudfront.net/627b2b39-7844-4df4-858e-b14a765fdc2d/e56e051b-45db-454a-95df-863d99aabdc0.jpeg
 15031,0e82c69e,RITE AID,https://d28ah3i0pt2w2k.cloudfront.net/c1e20def-b97b-4e0c-9bb8-ba4f22ac0be5/feda133c-9e03-4443-8b05-e03480784281.png
 15035,bb752e03,Fibertec,https://d28ah3i0pt2w2k.cloudfront.net/82569ee4-2fc9-477c-8718-f2f4e29325cf/f099e6de-73f8-4225-ba19-2957fc8905b9.jpeg
-15042,4e1d519c,ÖGON -DESIGNS-,https://d28ah3i0pt2w2k.cloudfront.net/5866ba13-4fb7-43e4-8101-b581b17a115b/f4cd8fd7-ec67-4772-b218-b96314a7e384.jpeg
+15042,4e1d519c,Ã–GON -DESIGNS-,https://d28ah3i0pt2w2k.cloudfront.net/5866ba13-4fb7-43e4-8101-b581b17a115b/f4cd8fd7-ec67-4772-b218-b96314a7e384.jpeg
 15058,235d3d61,MAKOLOCE,https://d28ah3i0pt2w2k.cloudfront.net/b851dab6-14d9-43f5-8ab2-a6fd13c7528a/9a2189a6-a380-4aba-b5a3-fb6e47ba640a.jpeg
 15064,cf98cd54,FLYLINKTECH,https://d28ah3i0pt2w2k.cloudfront.net/76438715-2ff5-4670-8f3b-642dd4f58a0b/585b6701-4cce-43d0-988a-698a54655609.png
 15066,92ec1ee0,Green Giant,https://d28ah3i0pt2w2k.cloudfront.net/758a85b9-3ee3-404e-a571-7a43789b71f4/7a8d6b33-f207-47d9-a0d9-38ca2da66d48.jpeg
@@ -1511,7 +1511,7 @@ id,mark_id,mark_name,content
 15225,51cb43b2,KATE SPADE NEW YORK,https://d28ah3i0pt2w2k.cloudfront.net/2ad51e97-8607-4b74-9b02-69cda6a2abbf/9e8f9745-2178-489b-b0bd-efd44d4142b3.png
 15226,51cb43b2,KATE SPADE NEW YORK,https://d28ah3i0pt2w2k.cloudfront.net/44eeedd1-4dee-4815-96b3-539f1d3108ad/8de9bffe-69ca-4275-a49c-584e5763e635.png
 15270,681b0a7d,GELLEN,https://d28ah3i0pt2w2k.cloudfront.net/f1214bff-1747-4767-96f9-8f64496e1f2a/5d18fb31-8d97-4901-bfab-67ebf4665c85.png
-15273,8ee7122a,Veuve Clicquot Veuve Clicquot Veuve Clicquot Ponsardin MAISON FONDÉE EN 1772,https://d28ah3i0pt2w2k.cloudfront.net/2cec7555-4ed8-4370-ad1c-140c6fc64265/c38f923b-1097-4274-b307-1e25cf00764f.jpeg
+15273,8ee7122a,Veuve Clicquot Veuve Clicquot Veuve Clicquot Ponsardin MAISON FONDÃ‰E EN 1772,https://d28ah3i0pt2w2k.cloudfront.net/2cec7555-4ed8-4370-ad1c-140c6fc64265/c38f923b-1097-4274-b307-1e25cf00764f.jpeg
 15285,3f1e2b10,USEWELL,https://d28ah3i0pt2w2k.cloudfront.net/b789e53d-88b9-4093-8bb2-3ec6a46059c9/b520c299-c8b8-49b1-9fc9-7a11c3547179.jpeg
 15287,34357fac,NYFT TOYS,https://d28ah3i0pt2w2k.cloudfront.net/6c365385-340c-4ffa-b0ac-a8b700f042a5/49aeb628-e030-4fbc-987a-9cc4a59552df.png
 15309,92ec1ee0,Green Giant,https://d28ah3i0pt2w2k.cloudfront.net/968501a0-15f6-4a5a-bf93-4ec60fdc0ba6/3c941950-b15a-4ff9-8d22-c208627e2722.jpeg
@@ -1524,7 +1524,7 @@ id,mark_id,mark_name,content
 15424,3ae80d8f,INVICTUS,https://d28ah3i0pt2w2k.cloudfront.net/6eb43bb8-e4f5-4bf4-ba53-becdc78b5c5a/bc5bfa24-4977-46b7-9df0-425bbd5ea773.jpeg
 15433,cf39e700,Shoei,https://d28ah3i0pt2w2k.cloudfront.net/13e88bef-f85f-4187-a318-57860381e44c/f0ca7c4f-b9ed-4a1f-b00d-10321f6e9b09.png
 15434,42081c0a,Audi,https://d28ah3i0pt2w2k.cloudfront.net/5a4ad453-8747-4098-92f9-a1cb84a35f5f/9703bda7-672e-45ef-8c57-91ea24e7ce63.jpeg
-15445,8ee7122a,Veuve Clicquot CAVE PRIVÉE Veuve Clicquot Ponsardin,https://d28ah3i0pt2w2k.cloudfront.net/bc995835-8f5e-4a4f-9d3d-0141e0788faa/246153fb-b61f-44af-b97f-c312af837247.jpeg
+15445,8ee7122a,Veuve Clicquot CAVE PRIVÃ‰E Veuve Clicquot Ponsardin,https://d28ah3i0pt2w2k.cloudfront.net/bc995835-8f5e-4a4f-9d3d-0141e0788faa/246153fb-b61f-44af-b97f-c312af837247.jpeg
 15451,ebe2f6ea,Rena Germany,https://d28ah3i0pt2w2k.cloudfront.net/b3751d05-361a-483a-9880-27270b340efb/878f0c3e-f6e2-403e-bfc8-959fedcf4194.jpeg
 15464,c3393ec9,youyeetoo,https://d28ah3i0pt2w2k.cloudfront.net/b97d6e67-7710-4b85-a671-dfbed74490f8/0aa31a1a-fd88-4cd2-b622-ca8746cd2470.png
 15478,ece97669,LEVANSE,https://d28ah3i0pt2w2k.cloudfront.net/971dedb7-5704-4183-be6d-6de9da05877d/be5c1a3b-7ea5-418c-86fc-312560eff9d8.jpeg
@@ -1569,7 +1569,7 @@ id,mark_id,mark_name,content
 15909,9f8c5989,TT,https://d28ah3i0pt2w2k.cloudfront.net/4182d239-8c28-48cf-bccf-8ca582d4a13f/930c96ff-c943-41db-9f31-df14e71f5a44.jpeg
 15910,9f8c5989,TT,https://d28ah3i0pt2w2k.cloudfront.net/bf9615e1-1642-490b-9d39-bffc8214f01b/13a5f66e-53d9-418a-9082-8ea0e93855b8.jpeg
 15923,9dc83fae,ELECTRIBRITE,https://d28ah3i0pt2w2k.cloudfront.net/e9d9b439-abba-4a22-aca0-d4b950901a98/032876ae-5903-4159-bea9-db1f47c9f0c7.png
-15931,53ebea84,GüDE,https://d28ah3i0pt2w2k.cloudfront.net/9f5337ff-b59a-4bd6-8a54-a11b7e67e3b7/91eb3407-d0cc-42ce-a4d7-b4cec98358ff.jpeg
+15931,53ebea84,GÃ¼DE,https://d28ah3i0pt2w2k.cloudfront.net/9f5337ff-b59a-4bd6-8a54-a11b7e67e3b7/91eb3407-d0cc-42ce-a4d7-b4cec98358ff.jpeg
 15933,3a92c71c,DANIU,https://d28ah3i0pt2w2k.cloudfront.net/9ef6e0ae-9c27-4afe-92bf-4c8159c8435e/c2d4a344-9110-4231-afdb-9d3d73ee4d70.jpeg
 15934,c7cba12c,ASOBEAGE,https://d28ah3i0pt2w2k.cloudfront.net/ac6c7876-b7c3-4f85-b7b8-09cc50f3cb8f/9674c789-c442-4a9f-bd50-e01f254e6774.png
 15952,9d4e9f7b,L'AGRATY,https://d28ah3i0pt2w2k.cloudfront.net/20c4462f-330a-4cc5-bd91-e63f6e61575f/4a84ce66-9418-4c42-a1d8-910f039e76e7.jpeg
@@ -1814,8 +1814,8 @@ id,mark_id,mark_name,content
 18575,229230d9,Sportneer,https://d28ah3i0pt2w2k.cloudfront.net/dd402166-99c5-457b-9933-9d30e83e5984/7494d105-b9a3-413c-bbd3-267189a5ae80.png
 18576,229230d9,Sportneer,https://d28ah3i0pt2w2k.cloudfront.net/bf944a6d-3b9a-4ef8-b705-af32c4c3769c/ce92026a-db16-4123-ad8f-1b2f957a19f7.png
 18580,92ec1ee0,Green Giant,https://d28ah3i0pt2w2k.cloudfront.net/00c63ca4-77a3-4cd3-b39e-e61e374da24f/f98f64e5-a3f3-4028-950f-735d2dc6b338.jpeg
-18602,4e1d519c,ÖGON -DESIGNS-,https://d28ah3i0pt2w2k.cloudfront.net/f3b2ffe3-e67f-48d6-a69b-cc9f0e15b543/cf58bf68-e0f1-494c-853c-9f7be0f5cd8f.jpeg
-18603,4e1d519c,ÖGON -DESIGNS-,https://d28ah3i0pt2w2k.cloudfront.net/03138e89-8383-4dbd-a44a-bc3f089499c1/24b526b4-0f55-4b2b-8e76-0f328fe0256c.jpeg
+18602,4e1d519c,Ã–GON -DESIGNS-,https://d28ah3i0pt2w2k.cloudfront.net/f3b2ffe3-e67f-48d6-a69b-cc9f0e15b543/cf58bf68-e0f1-494c-853c-9f7be0f5cd8f.jpeg
+18603,4e1d519c,Ã–GON -DESIGNS-,https://d28ah3i0pt2w2k.cloudfront.net/03138e89-8383-4dbd-a44a-bc3f089499c1/24b526b4-0f55-4b2b-8e76-0f328fe0256c.jpeg
 18615,d1732fd0,OPALFITNESS,https://d28ah3i0pt2w2k.cloudfront.net/84490641-f1bc-4687-a079-b22b9adf20f9/3e03eabd-0448-405d-820a-fa33eeeb34d6.jpeg
 18623,aaecd915,YK LABORATORIES,https://d28ah3i0pt2w2k.cloudfront.net/6132cef1-c89e-4752-b525-31f5d9ff6aca/3e42f83c-f00a-4b7e-a313-6ebe9150f4fd.jpeg
 18636,309dccf8,ARCTIC AIR,https://d28ah3i0pt2w2k.cloudfront.net/0cc96f81-1cb0-4799-9349-c9b5f9682c45/ca58adc7-84f4-457b-ab51-16de4968456f.png
@@ -1833,7 +1833,7 @@ id,mark_id,mark_name,content
 18739,c952886c,RARE FARE FOODS,https://d28ah3i0pt2w2k.cloudfront.net/3633aeb0-327d-4df9-ab84-b72f7ef147a5/89442f63-38d6-4dfe-97e6-94831fa83b07.png
 18742,9f8c5989,TT,https://d28ah3i0pt2w2k.cloudfront.net/eb39a941-8eed-4ff3-9188-146ceb607066/24d14c56-839b-42c5-849f-44f9766912a0.jpeg
 18744,39775a3a,Doctor Who,https://d28ah3i0pt2w2k.cloudfront.net/562c2336-69f4-4239-82c6-5f12eefd178b/2924e8a8-6760-4523-ad57-eb3c6c78c967.jpeg
-18747,8ee7122a,"VEUVE CLICQUOT PONSARDIN, Maison fondée en 1772 Disclaimer sur ""Maison fondée en 1772""",https://d28ah3i0pt2w2k.cloudfront.net/6cc97edc-5330-4ec4-9b09-7c932d544b24/7fe74d9e-69ff-4873-a4e3-602a8ec38fdc.jpeg
+18747,8ee7122a,"VEUVE CLICQUOT PONSARDIN, Maison fondÃ©e en 1772 Disclaimer sur ""Maison fondÃ©e en 1772""",https://d28ah3i0pt2w2k.cloudfront.net/6cc97edc-5330-4ec4-9b09-7c932d544b24/7fe74d9e-69ff-4873-a4e3-602a8ec38fdc.jpeg
 18753,bc6e401c,ivencase,https://d28ah3i0pt2w2k.cloudfront.net/9cfc768c-db27-4f29-99b8-8a450c433b62/2b18cb65-7a7e-4d24-97eb-f0da3cc5b138.jpeg
 18758,0364dbc0,VENUM,https://d28ah3i0pt2w2k.cloudfront.net/aec2d42f-2bea-44ab-a597-e3dcd107f884/9b4ed2e7-621b-4cdf-9aec-814c364a9a10.jpeg
 18760,d11cb501,teeteck,https://d28ah3i0pt2w2k.cloudfront.net/cafa9361-889f-4a65-964f-dbbca2b14723/5df7ac43-bd88-4bc4-84be-3f0fd631349e.jpeg
@@ -1869,7 +1869,7 @@ id,mark_id,mark_name,content
 19276,a85b8e09,POROUS-CAPSICUM-PLASTER,https://d28ah3i0pt2w2k.cloudfront.net/3de4e135-49f6-4da9-9fb3-b40aa6bed645/2b42c885-f56c-40eb-85ba-e2a0aae38aed.jpeg
 19277,dd7507a8,Kygo,https://d28ah3i0pt2w2k.cloudfront.net/b5b4a559-d718-4fa0-abdf-d8fa700c4e9c/d68acf31-acd1-4fdd-a4df-6eb21878ae0e.jpeg
 19319,11c4b103,MAXDIGI,https://d28ah3i0pt2w2k.cloudfront.net/21c671e5-da9b-4989-9e94-e83af23f622e/1d962e46-a2ec-43b1-a416-6cd2d3082dc5.jpeg
-19360,8ee7122a,Veuve Clicquot Veuve Clicquot Veuve Clicquot Ponsardin MAISON FONDÉE EN 1772,https://d28ah3i0pt2w2k.cloudfront.net/99c89224-87dc-43d5-95e4-9e920fe93556/7f83e7ed-0840-4696-bea2-7859df243998.jpeg
+19360,8ee7122a,Veuve Clicquot Veuve Clicquot Veuve Clicquot Ponsardin MAISON FONDÃ‰E EN 1772,https://d28ah3i0pt2w2k.cloudfront.net/99c89224-87dc-43d5-95e4-9e920fe93556/7f83e7ed-0840-4696-bea2-7859df243998.jpeg
 19361,8ee7122a,Veuve Clicquot Ponsardin,https://d28ah3i0pt2w2k.cloudfront.net/996e6622-9e11-44bb-9454-8b13dea00f06/f3fd6cd9-cc5c-477e-8131-09e62c528818.jpeg
 19362,92a4ec7b,ortizan,https://d28ah3i0pt2w2k.cloudfront.net/f31f5fbe-76f2-408a-9311-66c6a2b1f7d7/4a098f1f-ae2f-4ed9-ac99-cd2a2556af0e.png
 19371,196d7db6,SUNDEE,https://d28ah3i0pt2w2k.cloudfront.net/4a5fd7ec-7aa6-4046-ac18-516f01eb2c0a/a9a0bfb2-a1d8-4953-8fb0-f5126dcab8df.jpeg
@@ -1927,7 +1927,7 @@ id,mark_id,mark_name,content
 19959,51cb43b2,KATE SPADE NEW YORK,https://d28ah3i0pt2w2k.cloudfront.net/4d53af21-258a-4995-a4d8-18726d36eeb8/2b986961-f372-41ab-a282-9e39759a3ff0.jpeg
 19961,ecaf61c6,"WEST END FOODS LANCASTER, PA WSNE",https://d28ah3i0pt2w2k.cloudfront.net/129cf11e-5de7-4a40-92e9-14009a7ab211/c0a10b3d-8963-46f9-9314-045815a9fb2d.jpeg
 19963,65aa248b,BRZSACR,https://d28ah3i0pt2w2k.cloudfront.net/fc40c9ce-ae95-4379-a69a-c46368445e0f/e88dab06-3741-4be2-8af4-a004a7770005.png
-19978,53ebea84,GÃ¼DE,https://d28ah3i0pt2w2k.cloudfront.net/6785cefd-f030-48f1-8a20-e56db9460b6c/df8e201a-a79e-4ac7-ba36-0e3642a24d3f.jpeg
+19978,53ebea84,GÃƒÂ¼DE,https://d28ah3i0pt2w2k.cloudfront.net/6785cefd-f030-48f1-8a20-e56db9460b6c/df8e201a-a79e-4ac7-ba36-0e3642a24d3f.jpeg
 19979,229230d9,Sportneer,https://d28ah3i0pt2w2k.cloudfront.net/526e62f3-ff47-47de-8996-b4aff950d3ec/88e6c1a3-a0ff-4831-9824-8a2ee8384c53.jpeg
 19988,a7a7a0a6,Black Rock Grill,https://d28ah3i0pt2w2k.cloudfront.net/b4320198-8b79-44c4-8db8-be5854849b20/80830d55-11a0-497d-b426-8c99c040f9dc.jpeg
 19999,2d5b8bfe,NEW AGE,https://d28ah3i0pt2w2k.cloudfront.net/90a706ae-7363-4774-b5f0-6f7a35fd477f/0e84e703-8f79-4ac6-94bd-560290a3dd1b.png
@@ -2007,7 +2007,7 @@ id,mark_id,mark_name,content
 20721,51cb43b2,KATE SPADE NEW YORK,https://d28ah3i0pt2w2k.cloudfront.net/2acaf0ab-b467-4389-a9f1-f01a3ee57e74/4338a6be-36bb-40cf-92d8-1059be4480d5.jpeg
 20728,40b090fb,G-LIKE,https://d28ah3i0pt2w2k.cloudfront.net/8bb653e6-61ff-47b0-b90e-2f5872ba79ba/09d9c792-914e-49e7-9aa3-b8c3c05aec0d.jpeg
 20752,e7488304,FLASHOWL,https://d28ah3i0pt2w2k.cloudfront.net/960268fd-2daf-43e0-a905-ea3f3e63ce56/8ba77308-003c-43dc-a8a5-5c12ad37218c.png
-20757,61350e97,FOXYBAE,https://d28ah3i0pt2w2k.cloudfront.net/25cda06e-6718-46a5-bef8-d7acd4e0d4b8/6061afed-97cd-4677-9eb1-2e6bb7c97f1c.jpeg
+20757,6.14E+101,FOXYBAE,https://d28ah3i0pt2w2k.cloudfront.net/25cda06e-6718-46a5-bef8-d7acd4e0d4b8/6061afed-97cd-4677-9eb1-2e6bb7c97f1c.jpeg
 20772,c3393ec9,youyeetoo,https://d28ah3i0pt2w2k.cloudfront.net/12a8d54f-2ed8-432e-835b-3d98821ff25a/7af4e6f8-b19d-472a-88c9-fa33ebf6130c.png
 20773,744ab6ca,LOGI,https://d28ah3i0pt2w2k.cloudfront.net/3b1eee6c-7731-48c8-92ff-f110f4c30f1b/0670d967-ce84-40aa-8fc1-7183b6b852b7.jpeg
 20789,ecb931a3,ZTOONE,https://d28ah3i0pt2w2k.cloudfront.net/e1d84e5a-3e3f-4cef-b819-26acae540771/4044d076-83cc-4cd7-8ffd-a169b99a1bbd.jpeg
@@ -2094,7 +2094,7 @@ id,mark_id,mark_name,content
 21792,51cb43b2,kate spade - NEW YORK,https://d28ah3i0pt2w2k.cloudfront.net/cede83f8-5973-4ca8-88dd-63d6240c5dc3/589ded80-1225-4163-bf39-7c1613edb08c.jpeg
 21796,68e8eff0,BIKE BITS,https://d28ah3i0pt2w2k.cloudfront.net/4b57ff4b-bd66-4adf-889d-e42a4ed524c3/d6388426-3241-4a0a-9053-fcec812858ab.png
 21822,58c8927e,KERAFIX KERATIN,https://d28ah3i0pt2w2k.cloudfront.net/6be6f26e-a8db-403a-a3c9-9020189f468e/22ec96c6-f24b-4c02-bb3d-ebb669a453c9.jpeg
-21841,95ee6935,B R A Ã‰,https://d28ah3i0pt2w2k.cloudfront.net/397e6d65-f4c9-4d19-b0af-92c867beac9b/33e72b47-dbed-4277-ac60-a2500e20e98c.png
+21841,95ee6935,B R A Ãƒâ€°,https://d28ah3i0pt2w2k.cloudfront.net/397e6d65-f4c9-4d19-b0af-92c867beac9b/33e72b47-dbed-4277-ac60-a2500e20e98c.png
 21858,13b52d9c,CLALER,https://d28ah3i0pt2w2k.cloudfront.net/8fc3a1a4-2e19-4737-b9f3-53156e5083b5/0af772f3-4749-4257-95b2-7afd6f3b6dd0.jpeg
 21859,f1d96fd7,ARLO,https://d28ah3i0pt2w2k.cloudfront.net/94eb2b6b-bc40-496a-b8df-e57e2e4f3d09/103fceb2-b02d-499c-8edf-bffc08602528.jpeg
 21873,34cf5e06,VIRGIN,https://d28ah3i0pt2w2k.cloudfront.net/056cd805-3d1b-42f3-8ba4-d884cc0d80a3/2a8e190e-9206-4e82-b7e7-1c3e0b208f72.png
@@ -2203,7 +2203,7 @@ id,mark_id,mark_name,content
 22915,49ba7876,CU CHEFUNIFORMS.COM,https://d28ah3i0pt2w2k.cloudfront.net/5f769cef-7c03-4abb-bf90-5fbaa2c9309a/e329e8e0-7b87-458d-944c-fd8874f290cf.jpeg
 22930,c04ede76,DIVING DEEP,https://d28ah3i0pt2w2k.cloudfront.net/38fbb90a-8203-4148-bd70-db59a5082179/c67f1fa6-ed55-48be-8180-b4d078d3fa6f.jpeg
 22940,5c13c0b1,Smaier,https://d28ah3i0pt2w2k.cloudfront.net/e8f40715-7ae6-491a-a4db-b92735a689cb/a37d8a9d-aae9-4301-9a9d-ca8dad68f647.jpeg
-22970,fad465f1,L'ORÉAL PARIS,https://d28ah3i0pt2w2k.cloudfront.net/4b2857d8-4261-48a9-a096-1a308c683acc/9440658b-74f2-4f72-87eb-cf9d7195c2a0.jpeg
+22970,fad465f1,L'ORÃ‰AL PARIS,https://d28ah3i0pt2w2k.cloudfront.net/4b2857d8-4261-48a9-a096-1a308c683acc/9440658b-74f2-4f72-87eb-cf9d7195c2a0.jpeg
 22973,34cf5e06,VIRGIN,https://d28ah3i0pt2w2k.cloudfront.net/0b3cd86d-c172-4604-a138-a513bdc97425/c3c848d2-5cee-46c0-b77c-f31e3630461c.png
 22982,90aa8b0d,Babutenlo,https://d28ah3i0pt2w2k.cloudfront.net/87936723-d8ec-409b-9d6b-653e4ff21110/47072733-0144-4647-acbc-88ed54ef211c.jpeg
 23028,0d6233b3,Onlineforu LTD,https://d28ah3i0pt2w2k.cloudfront.net/a49a7217-ae37-41db-b5fa-6ec52aafb8e6/f3c0486f-fece-4ad5-8e78-61a5cefbe013.jpeg
@@ -2218,7 +2218,7 @@ id,mark_id,mark_name,content
 23170,0c8645dc,Dolike,https://d28ah3i0pt2w2k.cloudfront.net/6d5c1120-c72c-48aa-af3a-7ed326d3e29f/4efb6eca-e246-406e-921c-8a87c565f9d6.png
 23171,b2927edb,NATIONAL,https://d28ah3i0pt2w2k.cloudfront.net/a0fcf2df-579d-48b1-b631-ec3f8d37cfe5/c3faeeec-5480-4b9e-be18-214cc978893a.png
 23181,82b164ee,OBUBY,https://d28ah3i0pt2w2k.cloudfront.net/1fa13370-1e90-44f6-9600-7861e790c5f8/3de8308c-3a88-44db-a4c4-eb675fc5eedf.png
-23191,03326706,SAFE HEALTH,https://d28ah3i0pt2w2k.cloudfront.net/277383f1-a65b-4721-9c2b-91d2c0a95d54/e746ccdd-708c-4d5b-b38b-6479d94b741c.png
+23191,3326706,SAFE HEALTH,https://d28ah3i0pt2w2k.cloudfront.net/277383f1-a65b-4721-9c2b-91d2c0a95d54/e746ccdd-708c-4d5b-b38b-6479d94b741c.png
 23212,3704f7a1,maguja,https://d28ah3i0pt2w2k.cloudfront.net/6e05f522-6b43-446e-be01-8689dbcff9bf/54c8d13e-5dba-4c53-a2c8-3fbacf3bb3a0.png
 23216,354fdec5,Cabilock,https://d28ah3i0pt2w2k.cloudfront.net/4bd5355a-bf45-4b54-80ed-4e5e0b8da93e/1e517bc7-61f4-4d5e-91af-8c6d100dd2b8.jpeg
 23222,2792ecae,QGECEN,https://d28ah3i0pt2w2k.cloudfront.net/bf385cb6-43f8-45aa-8b47-4ae8853c4a23/eda9740e-12de-4a4d-b05f-39c7db3647e1.jpeg
@@ -2247,7 +2247,7 @@ id,mark_id,mark_name,content
 23515,3f49bf4a,Honeybee,https://d28ah3i0pt2w2k.cloudfront.net/c8b54a6d-bbac-4b07-a089-fb88351d53dd/5c820270-5534-4c41-b420-41a69041a8d3.jpeg
 23522,973b4356,ADORNEVE,https://d28ah3i0pt2w2k.cloudfront.net/641e2f9a-6816-4ca5-a3bc-3423cf1b8c76/9d5cd8e9-1eae-48d1-a277-62fac72f830c.png
 23542,681b0a7d,GELLEN,https://d28ah3i0pt2w2k.cloudfront.net/72e74494-b84f-4387-a406-8a225092b775/0f958778-bab2-4198-bb1f-d92a9db6de58.png
-23544,479711e4,FLYFE,https://d28ah3i0pt2w2k.cloudfront.net/349ec0bc-e44c-4446-9e8f-7a2920b8ae08/a2282fd2-65c4-4ee8-8866-f98df45bc525.jpeg
+23544,4.80E+09,FLYFE,https://d28ah3i0pt2w2k.cloudfront.net/349ec0bc-e44c-4446-9e8f-7a2920b8ae08/a2282fd2-65c4-4ee8-8866-f98df45bc525.jpeg
 23559,b1a7918e,Stickum,https://d28ah3i0pt2w2k.cloudfront.net/78c5807b-c3d7-482f-989d-6b07817c6e8d/88142257-2c25-4b01-b2f7-69109929fc5b.jpeg
 23564,ebfe359a,GOYOMA,https://d28ah3i0pt2w2k.cloudfront.net/5e778431-1593-4a05-9696-0d875ed3d34b/b8860049-f7f3-4947-9437-4dc96e26d677.jpeg
 23580,e4b011db,Arnusa,https://d28ah3i0pt2w2k.cloudfront.net/144c3f2b-ba3e-456e-8ee4-a836d2d47423/b6346de5-3eb2-4f53-8687-2fef8ae8791c.jpeg
