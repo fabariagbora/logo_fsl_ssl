@@ -55,7 +55,7 @@ def process_product(split_name, csv_path):
     df = pd.read_csv(csv_path)
 
     for _, row in tqdm(df.iterrows(), total=len(df)):
-        url = row["URL"]
+        url = row["url"]
         img = download_image(url)
         if img is None:
             continue
