@@ -4,4 +4,9 @@ data/processed/
 # Ignore zip files
 *.zip
 
+# ignore cache files
+__pycache__/
+*.pyc
 
+# ignore checkpoint files
+checkpoints/*.pth

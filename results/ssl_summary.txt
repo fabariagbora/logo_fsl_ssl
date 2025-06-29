@@ -1,0 +1,2 @@
+Rotation Invariance Score: 0.8934
+Domain Invariance Score: 0.9013

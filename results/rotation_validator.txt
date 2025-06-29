@@ -1,0 +1,1 @@
+Rotation Invariance Score: 0.8950

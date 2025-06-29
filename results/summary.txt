@@ -1,0 +1,17 @@
+===== FEW-SHOT LOGO RECOGNITION RESULTS =====
+Register Domain:
+  - Average Accuracy: 85.94%
+Product Domain:
+  - Average Accuracy: 81.82%
+Difference:
+  - Drop: 4.12 percentage points
+----------------------------------------------
+N-Way: 5, K-Shot: 5, M-Query: 5
+Episodes: 1000 (train), 200 (eval)
+Pretrained Backbone: ResNet-18
+
+===== SELF-SUPERVISED VALIDATION RESULTS =====
+Rotation Invariance:
+  - Rotation Invariance Score: 0.8950
+Domain Invariance:
+  - Domain Invariance Score: 0.9013
