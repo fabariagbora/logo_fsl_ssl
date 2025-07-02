@@ -17,7 +17,6 @@ The goal:
 
 ## 📂 Directory Structure
 
-```bash
 logo_fsl_ssl/
 ├── datasets/                # Logo dataset loader, few-shot sampler
 │   ├── logo_fsl_dataset.py
@@ -36,6 +35,8 @@ logo_fsl_ssl/
 ├── data/processed/          # ⚠️ Not versioned — add your own data
 ├── README.md                # This file
 └── .gitignore               # Large data / zips excluded
+
+
 
 
 ## ⚙️ Installation & Setup
@@ -80,6 +81,7 @@ data/processed/
 ├── product/val/<mark_id>/*.jpg
 ⚠️ This folder is not pushed to GitHub — it stays local.
 
+
 ## 🚀 How to Run
 
 ### ✅ Step 1 — Run SSL validators
@@ -90,6 +92,8 @@ results/ssl_rotation.csv
 results/ssl_domain.csv
 results/ssl_summary.txt
 
+
+
 ### ✅ Step 2 — Run few-shot evaluations
 python scripts/evaluate_product.py
 python scripts/evaluate_register.py
@@ -99,6 +103,7 @@ results/product_per_class.csv
 results/register_per_class.csv
 results/eval_product.txt
 results/eval_register.txt
+
 
 ### ✅ Step 3 — Generate correlation plots
 
@@ -148,7 +153,7 @@ Feel free to adapt, reuse, and build on this work.
 This project uses the following open dataset.  
 If you build on this work or use the dataset, please cite the original authors:
 
-```bibtex
+``bibtex
 @software{Zhao_Open_set_cross_2025,
   author  = {Zhao, Xiaonan and Li, Chenge and Liu, Zongyi and Feng, Yarong and Chen, Qipin},
   month   = feb,
