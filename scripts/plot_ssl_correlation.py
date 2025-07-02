@@ -24,7 +24,7 @@ prod_ssl = product_merged["ssl_rotation"]
 prod_acc = product_merged["fewshot_acc"]
 
 prod_corr, prod_pval = stats.pearsonr(prod_ssl, prod_acc)
-print(f"✅ [PRODUCT] Pearson correlation: {prod_corr:.4f}")
+print(f"[PRODUCT] Pearson correlation: {prod_corr:.4f}")
 
 plt.figure(figsize=(6, 5))
 plt.scatter(prod_ssl, prod_acc, alpha=0.7)
@@ -45,7 +45,7 @@ reg_ssl = register_merged["ssl_rotation"]
 reg_acc = register_merged["fewshot_acc"]
 
 reg_corr, reg_pval = stats.pearsonr(reg_ssl, reg_acc)
-print(f"✅ [REGISTER] Pearson correlation: {reg_corr:.4f}")
+print(f"[REGISTER] Pearson correlation: {reg_corr:.4f}")
 
 plt.figure(figsize=(6, 5))
 plt.scatter(reg_ssl, reg_acc, alpha=0.7)
@@ -68,5 +68,5 @@ correlation_summary = pd.DataFrame([
 ])
 
 correlation_summary.to_csv("results/ssl_rotation_correlations.csv", index=False)
-print("✅✅✅ Saved correlation summary: results/ssl_rotation_correlations.csv")
-print("✅✅✅ Done! Both plots + CSV saved in results/")
+print("Saved correlation summary: results/ssl_rotation_correlations.csv")
+print("Done! Both plots + CSV saved in results/")

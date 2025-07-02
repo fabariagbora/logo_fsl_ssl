@@ -26,10 +26,10 @@ print(f"[PRODUCT] Domain-FewShot Pearson r: {r:.4f} (p = {p:.4e})")
 
 # Save plot
 plt.savefig("results/domain_vs_fewshot.png")
-print("✅ Saved: results/domain_vs_fewshot.png")
+print("Saved: results/domain_vs_fewshot.png")
 
 # Save merged data + correlation to CSV
 merged["pearson_r"] = r  # same r for all rows, for reference if needed
 merged["pearson_p"] = p
 merged.to_csv("results/domain_vs_fewshot.csv", index=False)
-print("✅ Saved merged correlation CSV: results/domain_vs_fewshot.csv")
+print("Saved merged correlation CSV: results/domain_vs_fewshot.csv")

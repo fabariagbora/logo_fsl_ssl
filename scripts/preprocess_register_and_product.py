@@ -27,7 +27,7 @@ def download_image(url):
         response.raise_for_status()
         return Image.open(BytesIO(response.content)).convert("RGB")
     except Exception as e:
-        print(f"[❌] Download failed: {url}\n{e}")
+        print(f"Download failed: {url}\n{e}")
         return None
 
 
@@ -38,7 +38,7 @@ def save_image(img, path):
 
 # ---- PROCESSORS ---- #
 def process_register(split_name, csv_path):
-    print(f"\n📁 Processing Registration split: {split_name}")
+    print(f"\n Processing Registration split: {split_name}")
     df = pd.read_csv(csv_path)
 
     for _, row in tqdm(df.iterrows(), total=len(df)):
@@ -51,7 +51,7 @@ def process_register(split_name, csv_path):
 
 
 def process_product(split_name, csv_path):
-    print(f"\n📦 Processing Product split: {split_name}")
+    print(f"\n Processing Product split: {split_name}")
     df = pd.read_csv(csv_path)
 
     for _, row in tqdm(df.iterrows(), total=len(df)):
@@ -63,7 +63,7 @@ def process_product(split_name, csv_path):
         try:
             annotations = json.loads(row["gt_annotation"].replace("'", "\""))
         except Exception as e:
-            print(f"[⚠️] JSON parsing failed for {row['id']}:\n{e}")
+            print(f"JSON parsing failed for {row['id']}:\n{e}")
             continue
 
         for i, ann in enumerate(annotations):
@@ -79,7 +79,7 @@ def process_product(split_name, csv_path):
 
 # ---- MAIN EXECUTION ---- #
 if __name__ == "__main__":
-    print("🚀 Starting Preprocessing...\n")
+    print("Starting Preprocessing...\n")
 
     for split, csv_path in REGISTER_SPLITS.items():
         process_register(split, csv_path)
@@ -87,4 +87,4 @@ if __name__ == "__main__":
     for split, csv_path in PRODUCT_SPLITS.items():
         process_product(split, csv_path)
 
-    print("\n✅ Done: All registration and product logo images have been processed and saved.")
+    print("\n Done: All registration and product logo images have been processed and saved.")

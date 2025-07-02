@@ -1,5 +1,3 @@
-# scripts/evaluate_register.py
-
 import os
 import csv
 import torch
@@ -30,7 +28,7 @@ def main():
     dataset = LogoFSLDataset(
         root_dir="data/processed",
         split="val",
-        domain="register",   # ✅ in-domain
+        domain="register",   # in-domain
         transform=transform
     )
 
@@ -52,13 +50,13 @@ def main():
     encoder = LogoEncoder(backbone="resnet18").to(DEVICE)
     proto_head = PrototypicalHead(metric="euclidean").to(DEVICE)
 
-    # ✅ Load checkpoint
+    # Load checkpoint
     checkpoint = torch.load("checkpoints/encoder_episode_900.pth", map_location=DEVICE)
     encoder.load_state_dict(checkpoint["encoder_state_dict"])
     encoder.eval()
 
     results = []
-    per_class_acc = {}  # ✅ mark_id -> list of accuracies
+    per_class_acc = {}  # mark_id -> list of accuracies
 
     with torch.no_grad():
         for episode_idx, batch in enumerate(tqdm(loader, total=NUM_EPISODES)):
@@ -103,7 +101,7 @@ def main():
             acc = (preds == query_labels).float().mean().item()
             results.append(acc)
 
-            # ✅ Track per-class for this episode
+            # Track per-class for this episode
             for cls_id in range(N_WAY):
                 cls_query_idx = (query_labels == cls_id).nonzero(as_tuple=True)[0]
                 cls_acc = (preds[cls_query_idx] == query_labels[cls_query_idx]).float().mean().item()
@@ -114,18 +112,18 @@ def main():
                 per_class_acc[mark_id].append(cls_acc)
 
     avg_acc = sum(results) / len(results)
-    print(f"✅ [REGISTER DOMAIN] Few-Shot Acc: {avg_acc*100:.2f}%")
+    print(f"[REGISTER DOMAIN] Few-Shot Acc: {avg_acc*100:.2f}%")
 
     os.makedirs("results", exist_ok=True)
 
-    # ✅ Save per-class CSV
+    # Save per-class CSV
     with open("results/register_per_class.csv", "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["mark_id", "fewshot_acc"])
         for mark_id, acc_list in per_class_acc.items():
             avg_cls_acc = sum(acc_list) / len(acc_list)
             writer.writerow([mark_id, avg_cls_acc])
-    print("✅ Saved: results/register_per_class.csv")
+    print("Saved: results/register_per_class.csv")
 
     with open("results/eval_register.txt", "w") as f:
         f.write(f"Average Accuracy: {avg_acc*100:.2f}%\n")

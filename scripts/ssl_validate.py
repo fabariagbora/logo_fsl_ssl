@@ -1,5 +1,3 @@
-# scripts/ssl_validate.py
-
 import os
 import csv
 import torch
@@ -55,8 +53,8 @@ def rotation_validator(encoder, transform):
             writer.writerow({"mark_id": mark_id, "ssl_rotation": score})
 
     avg_all = sum(mark_scores.values()) / len(mark_scores)
-    print(f"✅ Saved: results/ssl_rotation.csv")
-    print(f"✅ Rotation Invariance Score (mean): {avg_all:.4f}")
+    print(f"Saved: results/ssl_rotation.csv")
+    print(f"Rotation Invariance Score (mean): {avg_all:.4f}")
     return avg_all
 
 
@@ -101,8 +99,8 @@ def domain_invariance_validator(encoder, transform):
             writer.writerow({"mark_id": mark_id, "ssl_domain": score})
 
     avg_sim = sum(mark_scores.values()) / len(mark_scores)
-    print(f"✅ Saved: results/ssl_domain.csv")
-    print(f"✅ Domain Invariance Score (mean): {avg_sim:.4f}")
+    print(f"Saved: results/ssl_domain.csv")
+    print(f"Domain Invariance Score (mean): {avg_sim:.4f}")
     return avg_sim
 
 
@@ -124,7 +122,7 @@ def main():
         f.write(f"Rotation Invariance Score: {rot_score:.4f}\n")
         f.write(f"Domain Invariance Score: {dom_score:.4f}\n")
 
-    print("✅ Saved SSL Validation Summary: results/ssl_summary.txt")
+    print("Saved SSL Validation Summary: results/ssl_summary.txt")
 
 if __name__ == "__main__":
     main()

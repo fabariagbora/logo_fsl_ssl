@@ -1,16 +1,14 @@
-# scripts/test_logo_dataset.py
-
 from datasets.logo_fsl_dataset import LogoFSLDataset
 from torch.utils.data import DataLoader
 import torchvision.transforms as T
 
-# ✅ Example transform:
+# Example transform:
 transform = T.Compose([
     T.Resize((224, 224)),
     T.ToTensor()
 ])
 
-# ✅ Load Registration split for test
+# Load Registration split for test
 dataset = LogoFSLDataset(
     root_dir="data/processed",
     split="train",

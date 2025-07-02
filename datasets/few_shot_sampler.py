@@ -1,5 +1,3 @@
-# datasets/few_shot_sampler.py
-
 import random
 from torch.utils.data import Sampler
 
@@ -11,7 +9,7 @@ class FewShotEpisodeSampler(Sampler):
         self.m_query = m_query
         self.num_episodes = num_episodes
 
-        # ✅ Build index for each class
+        # Build index for each class
         self.index_per_class = {}
         for cls in self.dataset.classes:
             indices = [i for i, (_, label) in enumerate(self.dataset.samples) if label == cls]
@@ -24,7 +22,7 @@ class FewShotEpisodeSampler(Sampler):
             f"Available: {len(self.classes)}, Required per episode: {self.n_way}"
         )
 
-        print(f"✅ FewShotEpisodeSampler: Using {len(self.classes)} classes with >= {self.k_shot + self.m_query} images each.")
+        print(f"FewShotEpisodeSampler: Using {len(self.classes)} classes with >= {self.k_shot + self.m_query} images each.")
 
     def __iter__(self):
         for _ in range(self.num_episodes):

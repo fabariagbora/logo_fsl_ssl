@@ -24,7 +24,7 @@ transform = transforms.Compose([
 ])
 
 def extract_and_plot(domain_name, checkpoint_path, tsne_out, umap_out):
-    print(f"🚀 Processing domain: {domain_name}")
+    print(f"Processing domain: {domain_name}")
 
     dataset = LogoFSLDataset(
         root_dir="data/processed",
@@ -48,7 +48,7 @@ def extract_and_plot(domain_name, checkpoint_path, tsne_out, umap_out):
             imgs = imgs.to(DEVICE)
             feats = encoder(imgs).cpu().numpy()
             all_embeddings.append(feats)
-            all_labels.extend(labels)  # ✅ no int() needed!
+            all_labels.extend(labels)  # no int() needed!
 
     embeddings = np.concatenate(all_embeddings, axis=0)
 
@@ -61,7 +61,7 @@ def extract_and_plot(domain_name, checkpoint_path, tsne_out, umap_out):
     plt.scatter(tsne_proj[:, 0], tsne_proj[:, 1], c=numeric_labels, s=3, cmap="tab20")
     plt.title(f"t-SNE: {domain_name.capitalize()} Domain")
     plt.savefig(tsne_out)
-    print(f"✅ Saved: {tsne_out}")
+    print(f"Saved: {tsne_out}")
 
     umap_proj = umap.UMAP(n_neighbors=15, min_dist=0.1, random_state=42).fit_transform(embeddings)
     umap_proj = np.asarray(umap_proj)
@@ -70,7 +70,7 @@ def extract_and_plot(domain_name, checkpoint_path, tsne_out, umap_out):
     plt.scatter(umap_proj[:, 0], umap_proj[:, 1], c=numeric_labels, s=3, cmap="tab20")
     plt.title(f"UMAP: {domain_name.capitalize()} Domain")
     plt.savefig(umap_out)
-    print(f"✅ Saved: {umap_out}")
+    print(f"Saved: {umap_out}")
 
 extract_and_plot(
     domain_name="register",
@@ -86,4 +86,4 @@ extract_and_plot(
     umap_out="results/umap_product.png"
 )
 
-print("✅✅✅ All embeddings visualized and saved!")
+print("All embeddings visualized and saved!")

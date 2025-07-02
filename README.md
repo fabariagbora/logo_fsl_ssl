@@ -38,14 +38,14 @@ logo_fsl_ssl/
 └── .gitignore               # Large data / zips excluded
 
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
-1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 
 git clone https://github.com/fabariagbora/logo_fsl_ssl/
 cd logo_fsl_ssl
 
-2️⃣ Create a Python environment
+### 2️⃣ Create a Python environment
 
 Example using Conda:
 conda create -n logo-fsl python=3.10
@@ -55,7 +55,7 @@ Or virtualenv:
 python -m venv venv
 source venv/bin/activate
 
-3️⃣ Install dependencies
+### 3️⃣ Install dependencies
 
 Create a requirements.txt if not already done:
 torch>=1.13
@@ -72,7 +72,7 @@ Install:
 pip install -r requirements.txt
 
 
-📁 Add Your Data
+## 📁 Add Your Data
 
 Your processed logo dataset should be in:
 data/processed/
@@ -80,8 +80,9 @@ data/processed/
 ├── product/val/<mark_id>/*.jpg
 ⚠️ This folder is not pushed to GitHub — it stays local.
 
-🚀 How to Run
-✅ Step 1 — Run SSL validators
+## 🚀 How to Run
+
+### ✅ Step 1 — Run SSL validators
 
 python scripts/ssl_validate.py
 Creates:
@@ -89,7 +90,7 @@ results/ssl_rotation.csv
 results/ssl_domain.csv
 results/ssl_summary.txt
 
-✅ Step 2 — Run few-shot evaluations
+### ✅ Step 2 — Run few-shot evaluations
 python scripts/evaluate_product.py
 python scripts/evaluate_register.py
 
@@ -99,7 +100,7 @@ results/register_per_class.csv
 results/eval_product.txt
 results/eval_register.txt
 
-✅ Step 3 — Generate correlation plots
+### ✅ Step 3 — Generate correlation plots
 
 python scripts/plot_ssl_correlation.py
 Creates:
@@ -107,7 +108,7 @@ results/ssl_rotation_vs_fewshot_product.png
 results/ssl_rotation_vs_fewshot_register.png
 results/ssl_correlation.csv # ⬅️ Save the Pearson r values too!
 
-✅ Step 4 — Visualize embeddings
+### ✅ Step 4 — Visualize embeddings
 
 python scripts/visualize_embeddings.py
 Creates:
@@ -116,13 +117,15 @@ results/umap_register.png
 results/tsne_product.png
 results/umap_product.png
 
-📊 Example Metrics
+## 📊 Example Metrics
+
 Product domain few-shot accuracy: ~82.68%
 Register domain few-shot accuracy: varies by run & split
 SSL rotation invariance: saved per class
 Correlation: Pearson r shows how well invariance aligns with few-shot performance.
 
-🚫 What’s NOT Pushed to Git
+## 🚫 What’s NOT Pushed to Git
+
 To keep the repo lightweight:
 Large processed data → data/processed/
 Large zipped files → *.zip
@@ -135,21 +138,40 @@ data/processed/
 checkpoints/
 
 
-📝 License
+## 📝 License
+
 MIT License
 Feel free to adapt, reuse, and build on this work.
 
-✨ Acknowledgements
+## 📚 Citation
+
+This project uses the following open dataset.  
+If you build on this work or use the dataset, please cite the original authors:
+
+```bibtex
+@software{Zhao_Open_set_cross_2025,
+  author  = {Zhao, Xiaonan and Li, Chenge and Liu, Zongyi and Feng, Yarong and Chen, Qipin},
+  month   = feb,
+  title   = {{Open set cross domain few shot logo recognition}},
+  url     = {https://github.com/wacv2025-image-quality-workshop2/cross-domain-logo-recognition},
+  version = {1.0.4},
+  year    = {2025}
+}
+
+## ✨ Acknowledgements
+
 Inspired by standard Prototypical Networks (https://arxiv.org/abs/1703.05175) Snell et al.
 Self-supervised methods inspired by SimCLR, BYOL, and basic SSL invariance tests.
 
-🧑‍💻 Maintainer
+## 🧑‍💻 Maintainer
+
 Fabari Agbora
 Data Scientist at Nepsix Technology Limited
 📧 agfabariagbora@gmail.com
 
 
-🗂️ Future Work
+## 🗂️ Future Work
+
 Experiment with other SSL tasks (jigsaw, colorization)
 Try additional backbones (ViT, ConvNeXt)
 Publish a cleaned dataset & benchmark config

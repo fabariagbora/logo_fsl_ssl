@@ -1,5 +1,3 @@
-# scripts/save_summary.py
-
 import os
 
 # 📌 Read actual results from files
@@ -35,4 +33,4 @@ os.makedirs("results", exist_ok=True)
 with open("results/summary.txt", "w") as f:
     f.writelines(lines)
 
-print("✅ Results summary saved to results/summary.txt")
+print("Results summary saved to results/summary.txt")

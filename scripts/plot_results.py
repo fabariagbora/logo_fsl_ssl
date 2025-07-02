@@ -1,5 +1,3 @@
-# scripts/plot_results.py
-
 import matplotlib.pyplot as plt
 
 # Replace with your numbers
@@ -19,5 +17,5 @@ for bar, acc in zip(bars, accuracies):
 
 plt.tight_layout()
 plt.savefig("results/register_vs_product.png")
-print("✅ Plot saved to results/register_vs_product.png")
+print("Plot saved to results/register_vs_product.png")
 plt.show()

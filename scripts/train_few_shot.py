@@ -1,5 +1,3 @@
-# scripts/train_few_shot.py
-
 import os
 import torch
 from torch.utils.data import DataLoader
@@ -48,7 +46,7 @@ def main():
         dataset,
         batch_sampler=sampler,
         num_workers=4,
-        collate_fn=lambda batch: batch  # ✅ critical: get raw (img, label) pairs
+        collate_fn=lambda batch: batch  # critical: get raw (img, label) pairs
     )
 
     encoder = LogoEncoder(backbone="resnet18").to(DEVICE)
@@ -115,9 +113,9 @@ def main():
                 'episode': episode_idx
             }
             torch.save(checkpoint, f"checkpoints/encoder_episode_{episode_idx}.pth")
-            print(f"✅ Saved checkpoint at episode {episode_idx}")
+            print(f"Saved checkpoint at episode {episode_idx}")
 
-    print("\n✅ Done training few-shot encoder!")
+    print("\n Done training few-shot encoder!")
 
 if __name__ == "__main__":
     main()

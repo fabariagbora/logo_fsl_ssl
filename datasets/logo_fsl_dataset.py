@@ -1,5 +1,3 @@
-# datasets/logo_fsl_dataset.py
-
 import os
 from torch.utils.data import Dataset
 from PIL import Image
@@ -9,7 +7,7 @@ class LogoFSLDataset(Dataset):
         self.root_dir = os.path.join(root_dir, domain, split)
         self.transform = transform
 
-        # ✅ Only keep valid classes with images
+        # Only keep valid classes with images
         self.classes = []
         self.samples = []
 

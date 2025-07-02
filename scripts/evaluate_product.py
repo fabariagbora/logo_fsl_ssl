@@ -86,7 +86,7 @@ def main():
     encoder.load_state_dict(checkpoint["encoder_state_dict"])
     encoder.eval()
 
-    # ✅ For tracking per-class
+    # For tracking per-class
     per_class_correct = {}
     per_class_total = {}
 
@@ -136,7 +136,7 @@ def main():
             acc = (preds == query_labels).float().mean().item()
             results.append(acc)
 
-            # ✅ Count correct per real mark_id
+            # Count correct per real mark_id
             for i in range(len(query_labels)):
                 proto_cls_id = query_labels[i].item()
                 mark_id = unique_labels[int(proto_cls_id)]
@@ -151,13 +151,13 @@ def main():
                 per_class_total[mark_id] += 1
 
     avg_acc = sum(results) / len(results)
-    print(f"✅ [PRODUCT DOMAIN] Few-Shot Acc: {avg_acc*100:.2f}%")
+    print(f"[PRODUCT DOMAIN] Few-Shot Acc: {avg_acc*100:.2f}%")
 
     os.makedirs("results", exist_ok=True)
     with open("results/eval_product.txt", "w") as f:
         f.write(f"Average Accuracy: {avg_acc*100:.2f}%\n")
 
-    # ✅ Write per-class CSV
+    # Write per-class CSV
     per_class_acc = {mark_id: per_class_correct[mark_id]/per_class_total[mark_id]
                      for mark_id in per_class_correct}
 
@@ -167,7 +167,7 @@ def main():
         for mark_id, acc in per_class_acc.items():
             writer.writerow([mark_id, acc])
 
-    print("✅ Saved: results/product_per_class.csv")
+    print("Saved: results/product_per_class.csv")
 
 if __name__ == "__main__":
     main()
