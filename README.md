@@ -36,7 +36,6 @@ logo_fsl_ssl/
 ├── data/processed/          # ⚠️ Not versioned — add your own data
 ├── README.md                # This file
 └── .gitignore               # Large data / zips excluded
-
 ```
 
 ## ⚙️ Installation & Setup
@@ -77,10 +76,12 @@ pip install -r requirements.txt
 
 Your processed logo dataset should be in:
 data/processed/
+
+```bash
 ├── register/val/<mark_id>/*.jpg
 ├── product/val/<mark_id>/*.jpg
 ⚠️ This folder is not pushed to GitHub — it stays local.
-
+```
 
 ## 🚀 How to Run
 
@@ -137,11 +138,12 @@ Large zipped files → *.zip
 Checkpoints (optionally use Git LFS)
 
 Example .gitignore:
+```bash
 # Ignore data & archives
 data/processed/
 *.zip
 checkpoints/
-
+```
 
 ## 📝 License
 
@@ -162,7 +164,6 @@ If you build on this work or use the dataset, please cite the original authors:
   version = {1.0.4},
   year    = {2025}
 }
-
 ```
 
 ## ✨ Acknowledgements
