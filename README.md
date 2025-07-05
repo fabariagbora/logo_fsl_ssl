@@ -19,21 +19,33 @@ The goal:
 
 ```bash
 logo_fsl_ssl/
+├── data
+│   ├── raw/
+|   |   ├── product_annotations_train_split.csv # Not used for this research. But useful if the research goal is domain adaptation instead of domain generalization
+|   |   ├── product_annotations_val_split.csv   # Used for cross-domain evaluation in evaluate_product.py
+|   |   ├── register_tm_train_split.csv         # Used for model training in train_few_shot.py
+|   |   ├── register_tm_val_split.csv           # Used for in-domain evaluation in evaluate_register.py
 ├── datasets/                # Logo dataset loader, few-shot sampler
-│   ├── logo_fsl_dataset.py
-│   ├── few_shot_sampler.py
+│   ├── logo_fsl_dataset.py  # Loads registration & product splits
+│   ├── few_shot_sampler.py  # Dynamically builds FSL tasks
 ├── models/                  # Encoder (ResNet18) + Prototypical Head
-│   ├── logo_encoder.py
-│   ├── prototypical_head.py
+│   ├── logo_encoder.py     # ResNet-based feature extractor
+│   ├── prototypical_head.py # Computes class prototypes
 ├── scripts/                 # All run scripts
 │   ├── ssl_validate.py          # Computes SSL scores (rotation, domain)
-│   ├── evaluate_product.py     # Runs few-shot eval (product)
-│   ├── evaluate_register.py    # Runs few-shot eval (register)
+│   ├── evaluate_product.py     # Runs few-shot cross-domain evaluation (product)
+│   ├── evaluate_register.py    # Runs few-shot in-domain evaluation (register)
 │   ├── visualize_embeddings.py # t-SNE / UMAP embeddings
 │   ├── plot_ssl_correlation.py # Correlation plots
+│   ├── plot_domain_correlation.py # domain Correlation plots
+│   ├── plot_results.py         # results plots
+│   ├── preprocess_register_and_product.py # downloads and preprocesses images
+│   ├── save_summary.py # saves a summary of the results
+│   ├── test_logo_dataset.py   # tests if labels are properly extracted during preprocessing
+│   ├── train_few_shot.py # trains the registration dataset. The output is model weights in checkpoints
 ├── checkpoints/             # Model weights (use .gitignore for large files)
 ├── results/                 # CSVs, plots, summaries
-├── data/processed/          # ⚠️ Not versioned — add your own data
+├── data/processed/          # ⚠️ Not versioned — add your data
 ├── README.md                # This file
 └── .gitignore               # Large data / zips excluded
 ```
@@ -73,6 +85,7 @@ pip install -r requirements.txt
 
 
 ## 📁 Add Your Data
+Use data/raw or add your data
 
 Your processed logo dataset should be in:
 data/processed/
@@ -85,17 +98,28 @@ data/processed/
 
 ## 🚀 How to Run
 
-### ✅ Step 1 — Run SSL validators
+### ✅ Step 1 — Run Preprocessor
 
-python scripts/ssl_validate.py
-Creates:
-results/ssl_rotation.csv
-results/ssl_domain.csv
-results/ssl_summary.txt
+python scripts/preprocess_register_and_product.py
+creates:
+Downloaded images from URL links.
+Cropped logos using gt_annotation bounding box from the product dataset.
 
+handles:
+Encoding errors (utf-8).
+Download progress using tqdm
 
+Saved in data/processed/
 
-### ✅ Step 2 — Run few-shot evaluations
+### ✅ Step 2 — Run Few-Shot Training
+
+python scripts/train_few_shot.py
+creates:
+model weights in checkpoints/
+
+*No training on product data to ensure true domain generalization.*
+
+### ✅ Step 3 — Run few-shot evaluations
 python scripts/evaluate_product.py
 python scripts/evaluate_register.py
 
@@ -105,8 +129,19 @@ results/register_per_class.csv
 results/eval_product.txt
 results/eval_register.txt
 
+Records csv and txt outputs in results/ 
 
-### ✅ Step 3 — Generate correlation plots
+### ✅ Step 4 — Run SSL validators
+
+python scripts/ssl_validate.py
+Creates:
+results/ssl_rotation.csv
+results/ssl_domain.csv
+results/ssl_summary.txt
+
+
+
+### ✅ Step 5 — Generate correlation plots
 
 python scripts/plot_ssl_correlation.py
 Creates:
@@ -114,7 +149,7 @@ results/ssl_rotation_vs_fewshot_product.png
 results/ssl_rotation_vs_fewshot_register.png
 results/ssl_correlation.csv # ⬅️ Save the Pearson r values too!
 
-### ✅ Step 4 — Visualize embeddings
+### ✅ Step 6 — Visualize embeddings
 
 python scripts/visualize_embeddings.py
 Creates:
